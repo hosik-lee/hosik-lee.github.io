@@ -49,9 +49,21 @@
     a {
       color: #1f2937;
     }
+    .floating-image {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 100px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
   </style>
 </head>
 <body>
+
+<!-- 지브리 스타일 이미지 -->
+<img src="ghibli.png" alt="Ghibli-style Portrait" class="floating-image" />
 
 <header>
   <h1>Hosik Lee</h1>
@@ -92,6 +104,16 @@
       <li>모: ○○○ - 전업주부</li>
       <li>배우자: ○○○ - ○○○ 직장인</li>
       <li>자녀: 1남 (중학생)</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>소속 회사</summary>
+    <ul>
+      <li>
+        현재 소속: <strong>테너지 (TENERGY)</strong> – Green Mobility 팀장<br/>
+        <a href="https://www.tenergy-x.com" target="_blank">www.tenergy-x.com</a>
+      </li>
     </ul>
   </details>
 
